@@ -34,6 +34,7 @@ img {
 	max-width: 100%;
 	height: auto;
 	width: auto\9; /* ie8 */
+	transition: all 3s ease-out;
 	-webkit-transition: all 3s ease-out;
 	-ms-transition: all 3s ease-out;
 	-moz-transition: all 3s ease-out;
