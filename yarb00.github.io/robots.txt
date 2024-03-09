@@ -1,3 +1,15 @@
 User-agent: *
+#allow
+Allow: /
+Allow: /index.html
+Allow: /projects/
+Allow: /projects/*
+#disallow
+Disallow: /images/
+#[commented for noindex tag work correctly] Disallow: /github/
+Disallow: /archive/
+#[commented for noindex tag work correctly] Disallow: /test/
+
+Host: https://yarb00.github.io
 
 Sitemap: https://yarb00.github.io/sitemap.xml
